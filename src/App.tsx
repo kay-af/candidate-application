@@ -1,13 +1,16 @@
-import { CssBaseline } from "@mui/material";
+import { CssBaseline, ThemeProvider } from "@mui/material";
 import { Home } from "pages/home";
 import { Provider } from "react-redux";
 import { store } from "shared/store";
+import { theme } from "shared/theme";
 
 export const App = () => {
   return (
     <Provider store={store}>
       <CssBaseline />
-      <Home />
+      <ThemeProvider theme={theme}>
+        <Home />
+      </ThemeProvider>
     </Provider>
   );
 };
