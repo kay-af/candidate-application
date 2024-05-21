@@ -2,6 +2,8 @@
 
 A front-end single page application to list jobs based on filters. No server is required. Data is mocked inside the application.
 
+[Launch demo app](https://kay-af.github.io/candidate-application)
+
 ## Steps to run locally
 
 **Note**: `npm` or `yarn` (preferred) is required to run this project.
