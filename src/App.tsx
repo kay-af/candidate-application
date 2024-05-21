@@ -1,5 +1,5 @@
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import { Home } from "pages/home";
+import { Home } from "pages/home/home";
 import { Provider } from "react-redux";
 import { store } from "shared/store";
 import { theme } from "shared/theme";

@@ -1,8 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
+import { HomeReducer } from "pages/home/home-reducer";
 import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 
+// Root redux store of the application
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+    home: HomeReducer,
+  },
 });
 
 export type RootState = ReturnType<typeof store.getState>;

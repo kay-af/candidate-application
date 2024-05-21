@@ -1,5 +1,8 @@
 import { createTheme } from "@mui/material";
 
+/**
+ * Material theme to match the required design closely
+ */
 export const theme = createTheme({
   typography: {
     fontFamily: ["Lexend", "sans-serif"].join(", "),
